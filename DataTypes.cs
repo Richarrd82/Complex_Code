@@ -30,7 +30,8 @@ public class DataTypes : MonoBehaviour {
      *  
      */
 
-    void Start() {
+    void Start() 
+    {
         //Value type variable
         Vector3 pos = transform.position;
         pos = new Vector3(0, 2, 0);
