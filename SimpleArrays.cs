@@ -23,4 +23,10 @@ public class SimpleArrays : MonoBehaviour {
 
         //nameOfArray[index of element to access] = value;
 	}
+	
+    for(int i = 0; i < myIntArray.Length; i++) 
+    {
+        myIntArray[i] = .....
+        //[i] is currently 0 so it is refering to the first elemnt of the Array
+    }
 }
